@@ -1,0 +1,16 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 1;
+    font-family: 'SUSE Mono', system-ui, Arial, sans-serif;
+    color: #222;
+    background: #dfd6c1;
+    line-height: 1.6;
+}
