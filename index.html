@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Pizza - Pizzaria</title>
+
+    <!-- Link para o CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonte moderna (Poppins) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- ===== TOPO / MENU DE NAVEGAÇÃO ===== -->
     <header class="topbar">
         <div class="container row">
-            <a class="logo" href="#"> 🍕La Pizza</a>
+            <a class="logo" href="#">🍕 La Pizza</a>
             <nav>
                 <a href="#sobre">Sobre</a>
                 <a href="#Cardápio">Cardápio</a>
@@ -23,139 +30,149 @@
             </nav>
         </div>
     </header>
-    <Main>
+
+    <main>
+
+        <!-- ===== SEÇÃO SOBRE ===== -->
         <section class="hero" id="sobre">
             <div class="container hero-wrap">
                 <div class="hero-text">
                     <h1>La Pizza - A melhor pizza de São Paulo</h1>
-                    <p>Bem vindos ao nosso forno mágico!</p>
-                    <p>nossa pizzaria surgiu em 1958, e nós estamos localizados no centro de Ribeirão Pires.</p>
+                    <p>Bem-vindo ao nosso forno mágico!</p>
+                    <p>Nossa pizzaria surgiu em 1958, e estamos localizados no coração de Ribeirão Pires.</p>
                 </div>
-            </div>
-            <figure class="hero-img">
-                <img src="sobre.png"  height="500" alt="A deliciosa pizza do La Pizza">
-            </figure>
 
-        </section>
-        <section id="Cardápio">
-            <div>
-                <!--ITEM 1-->
-                <article>
-                    <figure>
-                        <img src="marguerita.jpeg" width="300" height="200"
-                            alt="Pizza de Marguerita, contém: molho de tomate, mozzarella e manjericão fresco." />
-                    </figure>
-                    <h3>Pizza de Marguerita</h3>
-                    <p>Molho de tomate, mozzarella e manjericão fresco.</p>
-                    <span>R$ 39,00.</span>
-                </article>
-
-
-                <!--ITEM 2-->
-                <article>
-                    <figure>
-                        <img src="Frango.jpeg" width="300" height="200"
-                            alt="Pizza de frango com catupiry, contém: frango e catupiry." />
-                    </figure>
-                    <h3>Pizza de Frango com catupiry</h3>
-                    <p>Frango e catupiry.</p>
-                    <span>R$ 44,00.</span>
-                </article>
-
-                <!--ITEM 3-->
-                <article>
-                    <figure>
-                        <img src="queijo.jpg" width="300" height="200"
-                            alt="Pizza de queijo, contém: queijo e azeitona." />
-                    </figure>
-                    <h3>Pizza de queijo</h3>
-                    <p>Queijo e azeitona.</p>
-                    <span>R$ 35,00.</span>
-                </article>
-
-                <!--ITEM 4-->
-                <article>
-                    <figure>
-                        <img src="calabresa.jpeg" width="300" height="200"
-                            alt="Pizza de calabresa, contém: queijo e calabresa. " />
-                    </figure>
-                    <h3>Pizza Calabresa</h3>
-                    <p>Queijo e calabresa.</p>
-                    <span>R$ 44,00.</span>
-                </article>
-
-                <!--ITEM 5-->
-                <article>
-                    <figure>
-                        <img src="carne.jpeg" width="300" height="200"
-                            alt="Pìzza de carne, contém: carne desfiada e queijo." />
-                    </figure>
-                    <h3>Pizza de carne</h3>
-                    <p>Carne desfiada e queijo.</p>
-                    <span>R$ 46,00.</span>
-                </article>
-
-                <!--ITEM 6-->
-                <article>
-                    <figure>
-                        <img src="doce.jpeg" width="300" height="200"
-                            alt="Pizza doce, contém: chocolate, granulado e morango." />
-                    </figure>
-                    <h3>Pizza doce</h3>
-                    <p>Chocolate, granulado e morango.</p>
-                    <span>R$ 49,00.</span>
-                </article>
-
-            </div>
-        </section>
-        <section id="Contato">
-            <div>
-                <h3>Fale com a gente!</h3>
-                <form>
-                    <label>
-                        Nome:
-                        <input type="text" placeholder="Digite eu nome completo..." name="nome" required />
-                    </label>
-                    <label>
-                        Telefone:
-                        <input type="tel" placeholder="(11) 91111-1111" name="telefone" required />
-                    </label>
-                    <label>
-                        Mensagem:
-                        <textarea name="mensagem" placeholder="Escreva sua mensagem..." rows="5"></textarea>
-                    </label>
-                    <input type="submit" name="enviar" />
-                </form>
-
-            </div>
-            <div>
-                <h3>Onde estamos</h3>
-                <p>R. bélgica, 88 - Jardim Alvorada
-                    Ribeirão Pires - SP
-                    <strong>Aberyos de seg a dom</strong> 18h às 23h
-
-                </p>
-                <figure>
-                    <iframe class="img"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.2153137232617!2d-46.4166570238495!3d-23.70400386684981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6cf6b9a660b5%3A0xb470d63bf1a2159e!2sEtec%20de%20Ribeir%C3%A3o%20Pires!5e0!3m2!1spt-BR!2sbr!4v1758976669894!5m2!1spt-BR!2sbr"
-                        width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- Imagem da seção "sobre" -->
+                <figure class="hero-img">
+                    <img src="sobre.jpg" alt="A deliciosa pizza do La Pizza">
                 </figure>
             </div>
-    </Main>
+        </section>
 
+        <!-- ===== SEÇÃO CARDÁPIO ===== -->
+        <section class="alt" id="Cardápio">
+            <div class="container">
+                <h2>Cardápio</h2>
+                <p class="section-subtitle">As opções mais famosas do nosso menu</p>
+
+                <div class="menu-grid">
+
+                    <!-- ITEM 1 -->
+                    <article class="item">
+                        <figure class="thumb">
+                            <img src="marguerita.jpeg" width="200" height="180" alt="Pizza de Marguerita">
+                        </figure>
+                        <h3>Pizza de Marguerita</h3>
+                        <p>Molho de tomate, mozzarella e manjericão fresco.</p>
+                        <br>
+                        <span class="price">R$ 39,00</span>
+                    </article>
+
+                    <!-- ITEM 2 -->
+                    <article class="item">
+                        <figure class="thumb">
+                            <img src="Frango.jpeg" width="200" height="180" alt="Pizza de Frango com catupiry">
+                        </figure>
+                        <h3>Pizza de Frango com Catupiry</h3>
+                        <p>Frango e catupiry cremoso.</p>
+                        <br>
+                        <br>
+                        <span class="price">R$ 44,00</span>
+                    </article>
+
+                    <!-- ITEM 3 -->
+                    <article class="item">
+                        <figure class="thumb">
+                            <img src="queijo.jpg" width="200" height="180" alt="Pizza de queijo">
+                        </figure>
+                        <h3>Pizza de Queijo</h3>
+                        <p>Queijo e azeitona.</p>
+                        <br>
+                        <br>
+                        <span class="price">R$ 35,00</span>
+                    </article>
+
+                    <!-- ITEM 4 -->
+                    <article class="item">
+                        <figure class="thumb">
+                            <img src="calabresa.jpeg" width="200" height="180" alt="Pizza Calabresa">
+                        </figure>
+                        <h3>Pizza Calabresa</h3>
+                        <p>Queijo e calabresa artesanal.</p>
+                        <span class="price">R$ 44,00</span>
+                    </article>
+
+                    <!-- ITEM 5 -->
+                    <article class="item">
+                        <figure class="thumb">
+                            <img src="carne.jpeg" width="200" height="180" alt="Pizza de Carne">
+                        </figure>
+                        <h3>Pizza de Carne</h3>
+                        <p>Carne desfiada com queijo derretido.</p>
+                        <span class="price">R$ 46,00</span>
+                    </article>
+
+                    <!-- ITEM 6 -->
+                    <article class="item">
+                        <figure class="thumb">
+                            <img src="doce.jpeg" width="200" height="180" alt="Pizza Doce">
+                        </figure>
+                        <h3>Pizza Doce</h3>
+                        <p>Chocolate, granulado e morango.</p>
+                        <span class="price">R$ 49,00</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO CONTATO ===== -->
+        <section id="Contato" class="alt">
+            <div class="container contato-wrap">
+                <div class="form-section">
+                    <h3>Fale com a gente!</h3>
+                    <form>
+                        <label>
+                            Nome:
+                            <input type="text" placeholder="Digite seu nome completo..." name="nome" required />
+                        </label>
+                        <label>
+                            Telefone:
+                            <input type="tel" placeholder="(11) 91111-1111" name="telefone" required />
+                        </label>
+                        <label>
+                            Mensagem:
+                            <textarea name="mensagem" placeholder="Escreva sua mensagem..." rows="5"></textarea>
+                        </label>
+                        <input type="submit" value="Enviar mensagem" class="btn">
+                    </form>
+                </div>
+
+                <div class="local-section">
+                    <h3>Onde estamos</h3>
+                    <p>
+                        R. Bélgica, 88 - Jardim Alvorada<br>
+                        Ribeirão Pires - SP<br>
+                        <strong>Aberto de seg a dom</strong> das 18h às 23h
+                    </p>
+                    <figure>
+                        <iframe class="img"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.2153137232617!2d-46.4166570238495!3d-23.70400386684981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6cf6b9a660b5%3A0xb470d63bf1a2159e!2sEtec%20de%20Ribeir%C3%A3o%20Pires!5e0!3m2!1spt-BR!2sbr!4v1758976669894!5m2!1spt-BR!2sbr"
+                            width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== RODAPÉ ===== -->
     <footer>
         <div>
-            <small>
-                ©
-                <strong>2025</strong>
-                La pizza - feito para aprender
-            </small>
-            <a href="#">
-                ↑ Ir para o topo
-            </a>
+            <small>© <strong>2025</strong> La Pizza - feito para aprender</small>
+            <a href="#">↑ Ir para o topo</a>
         </div>
     </footer>
-</body>
 
+</body>
 </html>
